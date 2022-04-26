@@ -1,0 +1,44 @@
+.gauche
+{
+display: flex;
+flex-direction: row;
+height:90vh;
+width:260px;
+border: solid black;
+background-color: rgba(0,0,0, 0.8);
+  flex-direction: row-reverse;  
+    
+    
+}
+.burger{flex: 0.8;
+    border: solid salmon;
+    background-color:white
+
+
+
+}
+.main{
+  width: 3px;
+  height: 100%;
+}
+.menu{ flex: 3;
+background-color: rgba(0,0,0, 0.1);
+
+overflow: hidden;
+}
+.barsearch{
+display: flex;
+
+}
+.barsearch input{
+width: 95%;
+height: 1rem;
+
+}
+img{
+width: 20px;
+height: 20px;
+border-radius: 9rem;
+
+
+}
