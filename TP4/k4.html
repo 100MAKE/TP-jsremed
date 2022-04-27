@@ -1,43 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="k4.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="k4.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <title>Nouvel an 2022</title>
 </head>
+
 <body>
-    <div class="compterebours">
-        <div class="text">
-            
-            <h1>on sera en 2023 dans:</h1>
-        </div>
-        <div class="dispo" id="dispo">
-            
-            <div class="k" id="jours">
-                <h1></h1>
-                <small>jours</small>
-            </div>
-            <div class="k" id="heures">
-                <h1></h1>
-             <small>heures</small>
-            </div>
-            <div class="k" id="minutes">
-                <h1></h1>
-              <small>minutes</small>
-            </div>
-            <div class="k" id="secondes">
-                <h1></h1>
-              
-             <small>secondes</small>
-            </div>
-        </div>
-
-
-
-
+  <div id="sof">
+    <div id="donne">Fin compte a rebours dans:</div>
+    <div id="minuteur">
+      <div class="boite">
+        <div id="j"></div>
+        <div class="unite">Jours</div>
+      </div>
+      <div class="boite">
+        <div id="h"></div>
+        <div class="unite">Heures</div>
+      </div>
+      <div class="boite">
+        <div id="m"></div>
+        <div class="unite">Minutes</div>
+      </div>
+      <div class="boite">
+        <div id="s"></div>
+        <div class="unite">Secondes</div>
+      </div>
     </div>
-    
+  </div>
+  <script src="./moment.js"></script>
 </body>
+
 </html>

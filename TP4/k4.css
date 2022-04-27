@@ -1,51 +1,68 @@
-body{
-background-image: url("../TP4/images4.jpeg");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
-
-
-
-
-}
-.compterebours{
-width: 60vw;
-height: 50vh;
-transform: translate(30%,50%);
-background-color: white;
-border: 1px solid black;
-display: flex;
-flex-direction: column;
-
-
-}
-.text{
-flex: 1;
-
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.dispo
-{ 
-    flex: 3;
-    display: flex;
-    flex-direction: row;
-    border: 5px solid brown;
-   
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./CITY.jpeg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
 }
-.dispo k {
-    border: 1px solid blueviolet;
-flex: 3;
 
+#sof {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  padding: 40px 80px;
+  border-radius: 10px;
 }
-.k
-{ display: flex;
-   flex: 1;
-   border: 1px solid blue;
-   flex-direction: column;
+
+#donne {
+  font-size: 60px;
+  font-family: "Pacifico", cursive;
 }
-small
-{  flex: 1;
-    
-    border: 2px solid red;
 
+#minuteur {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  gap: 25px;
+  margin: 10vh auto;
+}
 
+.boite {
+  height: 200px;
+  text-align: center;
+  background-color: rgb(246, 255, 0);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.boite > div:first-child {
+  font-size: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 20px;
+}
+
+.unite {
+  padding: 10px 20px;
+  background-color: rgb(255, 94, 0);
+  font-size: 20px;
 }
